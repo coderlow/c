@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Подарочные коробки</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.4.0/dist/confetti.browser.min.js"></script> <!-- Подключаем библиотеку конфетти -->
+</head>
+<body>
+    <h1>Выберите одну коробку</h1>
+    <div class="container">
+        <div class="box" id="box1" onclick="openBox(1)">🎁</div>
+        <div class="box" id="box2" onclick="openBox(2)">🎁</div>
+        <div class="box" id="box3" onclick="openBox(3)">🎁</div>
+        <div class="box" id="box4" onclick="openBox(4)">🎁</div>
+        <div class="box" id="box5" onclick="openBox(5)">🎁</div>
+        <div class="box" id="box6" onclick="openBox(6)">🎁</div>
+    </div>
+    <button id="showAll" onclick="showAllBoxes()" style="display:none;">Посмотреть на все коробки</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
